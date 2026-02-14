@@ -28,11 +28,11 @@ export function getTicketPrice(age, isWeekend) {
   let price;
 if(age<=12)
   price=8;
-   else if(age >= 13 && age <= 17)
+   else if( age <= 17)
     price=12;
-  else if(age >= 18 && age <=59)
+  else if(age <=59)
     price=15;
-else if(age>=60)
+else
     price=10;
    
 if(isWeekend){
